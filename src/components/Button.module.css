@@ -1,0 +1,21 @@
+.button {
+	padding: 10px 50px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 15px;
+	background-color: #e3e3e3;
+	border: none;
+	border-radius: 20px;
+}
+
+.button img {
+	display: block;
+	margin: 5px auto;
+	width: 30px;
+	height: 30px;
+}
+
+.button:hover {
+	background-color: #f27f1b;
+	color: #0d0d0d;
+}

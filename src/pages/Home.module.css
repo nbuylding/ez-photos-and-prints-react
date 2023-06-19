@@ -1,0 +1,19 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'DM Serif Display', serif;
+	letter-spacing: 2px;
+}
+
+.home h1 {
+	font-size: 50px;
+	color: #0d0d0d;
+}
+
+@media only screen and (max-width: 375px) {
+	.home h1 {
+		text-align: center;
+		font-size: 30px;
+	}
+}

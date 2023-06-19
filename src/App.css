@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600;700&family=DM+Serif+Display&display=swap');
+
+:root {
+	--color-dark-blue: #2e4ca6;
+	--color-teal: #0da6a6;
+	--color-yellow: #f2ce1b;
+	--color-orange: #f27f1b;
+	--color-red: #f21616;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+	min-height: 100vh;
+	/* background-color: #0da6a6; */
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1004%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c44 C 72%2c66 216%2c145.8 360%2c154 C 504%2c162.2 576%2c81 720%2c85 C 864%2c89 936%2c177.8 1080%2c174 C 1224%2c170.2 1368%2c87.6 1440%2c66L1440 560L0 560z' fill='rgba(13%2c 166%2c 166%2c 0.49)'%3e%3c/path%3e%3cpath d='M 0%2c556 C 96%2c503.8 288%2c302.4 480%2c295 C 672%2c287.6 768%2c495.8 960%2c519 C 1152%2c542.2 1344%2c432.6 1440%2c411L1440 560L0 560z' fill='rgba(13%2c 166%2c 166%2c 0.67)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1004'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #e3e3e3;
 }

@@ -1,0 +1,17 @@
+.accordionItem {
+	background-color: #2e4ca6;
+	color: #e3e3e3;
+	cursor: pointer;
+	padding: 1.5rem;
+	width: 80%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	font-weight: 600;
+}
+
+.item {
+	float: right;
+	font-size: 18px;
+}

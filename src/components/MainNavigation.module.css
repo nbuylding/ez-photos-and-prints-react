@@ -1,0 +1,46 @@
+.header {
+	padding: 10px 0;
+	background-color: #f2ce1b;
+}
+
+.navBar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navBar ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navBar ul li {
+	margin: 0 20px;
+	list-style: none;
+	font-size: 20px;
+}
+
+.navItem {
+	text-decoration: none;
+}
+
+.navItem:hover {
+	color: #f21616;
+}
+
+@media only screen and (max-width: 375px) {
+	.navBar img {
+		display: none;
+	}
+
+	.navBar ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.navItem {
+		margin: 0;
+	}
+}

@@ -1,0 +1,46 @@
+.footContainer {
+	min-width: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0d0d0d;
+}
+
+.footContainer div {
+	margin: 10px 50px;
+	text-align: center;
+}
+
+.footContainer div h3 {
+	font-size: 20px;
+	color: #f21616;
+}
+
+.footContainer div h4 {
+	font-size: 16px;
+}
+
+.emailLink {
+	text-decoration: none;
+	color: #e3e3e3;
+	font-weight: bold;
+}
+
+.emailLink:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 375px) {
+	.footContainer {
+		min-width: 100%;
+		position: sticky;
+		bottom: 0;
+		display: block;
+		margin: 0 auto;
+	}
+}

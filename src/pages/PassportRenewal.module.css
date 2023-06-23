@@ -11,3 +11,9 @@
 	letter-spacing: 2px;
 	color: #0d0d0d;
 }
+
+@media only screen and (max-width: 400px) {
+	.accordion {
+		margin-bottom: 10px;
+	}
+}

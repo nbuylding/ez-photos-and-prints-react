@@ -29,7 +29,10 @@
 	color: #f21616;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
+	.header {
+		width: 100%;
+	}
 	.navBar img {
 		display: none;
 	}

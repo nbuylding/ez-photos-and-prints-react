@@ -11,7 +11,7 @@
 	color: #0d0d0d;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
 	.home h1 {
 		text-align: center;
 		font-size: 30px;
